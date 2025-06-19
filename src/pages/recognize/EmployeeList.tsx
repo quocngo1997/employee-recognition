@@ -13,7 +13,7 @@ const EmployeeList = () => {
 
   return (
     <div className="p-4 employee-list">
-      <h1 className="text-center mb-4">List Employee</h1>
+      <h1 className="text-center mb-4">Employee List</h1>
       {open && (
         <RecognizeForm
           employee={employeeRecognize}
