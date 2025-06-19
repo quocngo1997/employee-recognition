@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
-import Home from "../home";
+import Home from "../pages/home";
 
 test("Render component employee home page", () => {
   render(
